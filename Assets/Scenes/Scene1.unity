@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -503,6 +503,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Classroom
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0aac1073e709aa343b81f96d5a13f063, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 944285771447812480, guid: 0aac1073e709aa343b81f96d5a13f063, type: 3}
       propertyPath: m_Name
       value: GlassPane 10
@@ -837,7 +841,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &298508037
 AudioListener:
   m_ObjectHideFlags: 0
@@ -2056,7 +2060,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!81 &1171627096
 AudioListener:
   m_ObjectHideFlags: 0
