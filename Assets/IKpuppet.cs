@@ -13,6 +13,9 @@ public class IKpuppet : MonoBehaviour
 
     public GameObject hint;
     public float IK_hintWeight = 1.0f;
+
+    public GameObject hint2;
+    public float IK_hintWeight2 = 1.0f;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,6 +36,9 @@ public class IKpuppet : MonoBehaviour
 
         anim.SetIKPosition(AvatarIKGoal.RightHand, target.transform.position);
         anim.SetIKPositionWeight(AvatarIKGoal.RightHand, IK_weight);
+
+        anim.SetIKHintPosition(AvatarIKHint.LeftElbow, hint2.transform.position);
+        anim.SetIKHintPositionWeight(AvatarIKHint.LeftElbow, IK_hintWeight2);
 
         anim.SetIKPosition(AvatarIKGoal.LeftHand, target2.transform.position);
         anim.SetIKPositionWeight(AvatarIKGoal.LeftHand, IK_weight2);
