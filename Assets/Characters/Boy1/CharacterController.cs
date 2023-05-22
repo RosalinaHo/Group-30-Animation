@@ -18,6 +18,7 @@ public class CharacterController : MonoBehaviour
 
     void Update()
     {
+        /*
         if (!isMoving)
         {
             isMoving = true;
@@ -36,5 +37,6 @@ public class CharacterController : MonoBehaviour
         }
         
         transform.position = Vector3.MoveTowards(transform.position, targets[0].position, moveSpeed * Time.deltaTime);
+        */
     }
 }
