@@ -7,17 +7,27 @@ public class CharacterController : MonoBehaviour
 {
     public Transform[] targets;
     public float moveSpeed = 1f;
+    private float currentTime;
+    public float[] times;
+
+    private Animator boy1Anim;
 
     public bool isMoving { get; set; } = false;
 
     void Start()
     {
-        
+        boy1Anim = GetComponent<Animator>();
     }
 
 
     void Update()
     {
+        currentTime += Time.deltaTime;
+
+        if (currentTime >= times[0] && currentTime <= times[0] + 1)
+        {
+            boy1Anim.SetBool("isWalking", true);
+        }
         /*
         if (!isMoving)
         {
