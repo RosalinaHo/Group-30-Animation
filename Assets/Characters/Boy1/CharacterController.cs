@@ -40,10 +40,15 @@ public class CharacterController : MonoBehaviour
 
         if (currentTime >= times[2] && currentTime <= times[2] + 1)
         {
-            iKTargets[0].transform.position = new Vector3(1.952f, 4, -11);
             boy1Anim.SetBool("isSitting", true);
             //objTransform.position()
         }
+
+        if (currentTime >= 16.1 && currentTime <= 16.6)
+        {
+            iKTargets[0].transform.position = new Vector3(1.952f, 4, -11);
+        }
+
 
         /*
         if (!isMoving)
