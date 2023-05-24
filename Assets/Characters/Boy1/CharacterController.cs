@@ -5,6 +5,9 @@ using System.Collections.Generic;
 
 public class CharacterController : MonoBehaviour
 {
+    public IKLookAt iKLookAt;
+    public GameObject[] iKTargets;
+
     public Transform[] targets;
     public float moveSpeed = 1f;
     private float currentTime;
@@ -26,8 +29,22 @@ public class CharacterController : MonoBehaviour
 
         if (currentTime >= times[0] && currentTime <= times[0] + 1)
         {
+            iKLookAt.weight = 1;
             boy1Anim.SetBool("isWalking", true);
         }
+
+        if (currentTime >= times[1] && currentTime <= times[1] + 0.1)
+        {
+            boy1Anim.SetBool("isWalking", false);
+        }
+
+        if (currentTime >= times[2] && currentTime <= times[2] + 1)
+        {
+            iKTargets[0].transform.position = new Vector3(1.952f, 4, -11);
+            boy1Anim.SetBool("isSitting", true);
+            //objTransform.position()
+        }
+
         /*
         if (!isMoving)
         {
