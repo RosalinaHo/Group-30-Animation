@@ -559,12 +559,24 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1399406855172020185, guid: 4edd565f71c324b27aedbd92d5f4d946, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 4edd565f71c324b27aedbd92d5f4d946, type: 3}
       propertyPath: m_Name
       value: Girl2 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 4edd565f71c324b27aedbd92d5f4d946, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2321523695958950486, guid: 4edd565f71c324b27aedbd92d5f4d946, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6868716418057165105, guid: 4edd565f71c324b27aedbd92d5f4d946, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
