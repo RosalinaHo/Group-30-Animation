@@ -1,69 +1,12 @@
 fileFormatVersion: 2
-guid: 4edd565f71c324b27aedbd92d5f4d946
+guid: 13ed105c6df57a34eb7ccfa1b7ad198c
 ModelImporter:
   serializedVersion: 22103
-  internalIDToNameTable: []
-  externalObjects:
+  internalIDToNameTable:
   - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: F00_000_00_EyeExtra_01_EYE
-    second: {fileID: 2100000, guid: 662d48b9358234fc3846ccb10204f433, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: F00_000_00_EyeIris_00_EYE
-    second: {fileID: 2100000, guid: 7ebc66e39a3a34bf1aec9cc2676f7276, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: F00_000_00_EyeWhite_00_EYE
-    second: {fileID: 2100000, guid: 5ee8f05e09085499d8cd926e9283f141, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: F00_000_00_FaceMouth_00_FACE
-    second: {fileID: 2100000, guid: c1410916c54e24ffc81910282bd3fc19, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: F00_000_00_Face_00_SKIN
-    second: {fileID: 2100000, guid: d85c3e1497cb6481eabef64cd1dbde0b, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: F00_000_HairBack_00_HAIR
-    second: {fileID: 2100000, guid: 5b00959fb30094e39acbfaeff1dd0fd5, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: F00_000_Hair_00_HAIR
-    second: {fileID: 2100000, guid: 3310b60a771d24dcaadca0e63d180b51, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: F00_001_01_Accessory_Tie_01_CLOTH
-    second: {fileID: 2100000, guid: 5bfa445da359140449106a46e31c445f, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: F00_001_01_Body_00_SKIN
-    second: {fileID: 2100000, guid: 303b4f273b08540f3a6ff99193fe9566, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: F00_001_01_Bottoms_01_CLOTH
-    second: {fileID: 2100000, guid: 7c4f40893cf3f40c6a897cf63f30b070, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: F00_001_01_Shoes_01_CLOTH
-    second: {fileID: 2100000, guid: 0b429f6f638e3474e9ecedc6e363cf84, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: F00_001_01_Tops_01_CLOTH
-    second: {fileID: 2100000, guid: 9e5f557c7a5c249f8885a6da5e61dfd6, type: 2}
+      74: -203655887218126122
+    second: Sitting Idle
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -91,7 +34,36 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Sitting Idle
+      takeName: mixamo.com
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 384
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 0
   meshes:
     lODScreenPercentages: []
@@ -136,8 +108,7 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips:
-  - 13ed105c6df57a34eb7ccfa1b7ad198c
+  referencedClips: []
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
@@ -1305,11 +1276,11 @@ ModelImporter:
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 4edd565f71c324b27aedbd92d5f4d946, type: 3}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
-  avatarSetup: 1
+  avatarSetup: 2
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
