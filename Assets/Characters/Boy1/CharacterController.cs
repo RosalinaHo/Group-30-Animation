@@ -44,6 +44,13 @@ public class CharacterController : MonoBehaviour
             //objTransform.position()
         }
 
+        if (currentTime >= times[3] && currentTime <= times[3] + 1)
+        {
+            iKLookAt.weight = 0;
+            boy1Anim.SetBool("standUp", true);
+            //objTransform.position()
+        }
+
         if (currentTime >= 16.1 && currentTime <= 16.6)
         {
             iKTargets[0].transform.position = new Vector3(1.952f, 4, -11);
